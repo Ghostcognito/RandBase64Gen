@@ -11,10 +11,10 @@ alphanum = [ 'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p',
              'W','X','Y','Z','0','1','2','3','4','5','6','7','8','9','-','_']
 
 def rand():
-        """ This will genarate a random string of a provided lenth"""
-        lenth = int(input('How long of a value? As an int. '))
+        """ This will generate a random string of a provided length"""
+        length = int(input('How long of a value? As an int. '))
         listOfValues = []
-        for i in range(0,lenth):
+        for i in range(0,length):
                 listOfValues.append(alphanum[randint(0,63)])
         stringOfValues=''.join(listOfValues)
         print(stringOfValues)
